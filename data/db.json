@@ -1,0 +1,238 @@
+[
+  {
+    "cat_id": "machinelearning",
+    "cat_name": "Machine Learning",
+    "cat_icon": "icon-icon_bangzhuwendang",
+    "cat_item":"machinelearningItem",
+    "list_items": [
+      {
+        "item_name": "Scikit-learn",
+        "item_img": "./img/Hulkye.png",
+        "item_url": "https://scikit-learn.org/",
+        "item_desc": "A start-up Machine Learning package written in Python",
+      },
+      {
+        "item_name": "Tensorflow",
+        "item_img": "./img/mozilla.jpg",
+        "item_url": "https://developer.mozilla.org/zh-CN/",
+        "item_desc": "MDN Web Docs 网站提供开放网络（Open Web）技术有关的信息，包括用于网站和渐进式网络应用的 HTML、CSS 和 API。"
+      }
+    ]
+  },
+  {
+    "cat_id": "bigdata",
+    "cat_name": "Big Data",
+    "cat_icon": "icon-icon_bangzhuwendang",
+    "cat_item": "bigdataItem",
+    "list_items": [
+      {
+        "item_name": "HTML5",
+        "item_img": "./img/w3HTML5.png",
+        "item_url": "https://www.w3.org/html/ig/zh/wiki/HTML5",
+        "item_desc": "HTML5开发文档,开源(w3c组织)"
+      },
+      {
+        "item_name": "Hexo",
+        "item_img": "./img/hexo.png",
+        "item_url": "https://hexo.io/zh-cn/",
+        "item_desc": "快速、简洁且高效的博客框架"
+      },
+      {
+        "item_name": "GitHub Pages",
+        "item_img": "./img/GitHubPages.png",
+        "item_url": "https://pages.github.com/",
+        "item_desc": "Github Pages是Github免费提供给开发者的一款托管个人网站的产品。"
+      },
+      {
+        "item_name": "Jekyll",
+        "item_img": "./img/jekyll.png",
+        "item_url": "https://www.jekyll.com.cn/",
+        "item_desc": "将纯文本转化为静态网站和博客"
+      },
+      {
+        "item_name": "Wix",
+        "item_img": "./img/wix.png",
+        "item_url": "https://www.wix.com",
+        "item_desc": "免费的响应式商业化建站方案"
+      },
+      {
+        "item_name": "VuePress",
+        "item_img": "./img/vuepress.png",
+        "item_url": "https://www.vuepress.cn/",
+        "item_desc": "Vue 驱动的静态站点生成工具"
+      },
+      {
+        "item_name": "Docusaurus",
+        "item_img": "./img/docusaurus.png",
+        "item_url": "https://docusaurus.io/",
+        "item_desc": "Facebook出品的 简单的开源文档站点生成器"
+      },
+      {
+        "item_name": "docsify",
+        "item_img": "./img/docsify.png",
+        "item_url": "https://docsify.js.org/#/zh-cn/",
+        "item_desc": "一个神奇的文档站点生成器 简单轻巧"
+      },
+      {
+        "item_name": "Wiki js",
+        "item_img": "./img/wikijs.png",
+        "item_url": "https://wiki.js.org/",
+        "item_desc": "一个基于 NodeJS, Git 和 Markdown 的轻量级、现代化以及强大的 WIKI APP 生成工具"
+      },
+      {
+        "item_name": "GitBook",
+        "item_img": "./img/gitbook.png",
+        "item_url": "https://www.gitbook.com/",
+        "item_desc": "GitBook 是一个基于 Node.js 的命令行工具，可使用 Github/Git 和 Markdown 来制作精美的电子书"
+      }
+    ]
+  },
+  {
+    "cat_id": "placeholder 1",
+    "cat_name": "Placeholder 1",
+    "cat_icon": "icon-icon_bangzhuwendang",
+    "cat_item": "placeholder1Item",
+    "list_items": [
+      {
+        "item_name": "免费资源网络社区",
+        "item_img": "./img/free.png",
+        "item_url": "https://free.com.tw/",
+        "item_desc": "一个以免费为主题的台湾网站、部落格，内容包含科技新知、免费软体、线上工具、图库素材、WordPress 架站及应用程式介绍教学"
+      },
+      {
+        "item_name": "吾爱破解",
+        "item_img": "./img/52pojie.png",
+        "item_url": "https://www.52pojie.cn/",
+        "item_desc": "吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护"
+      },
+      {
+        "item_name": "全能VIP视频在线解析",
+        "item_img": "./img/liumingyevideo.png",
+        "item_url": "http://tool.liumingye.cn/video/",
+        "item_desc": "优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,视频解析,全能VIP视频解析,视频在线解析"
+      },
+      {
+        "item_name": "MSDN，我告诉你",
+        "item_img": "./img/itellyou.png",
+        "item_url": "https://msdn.itellyou.cn/",
+        "item_desc": "主要分享微软旗下产品，在这里可以下载到纯净版Windows系统、Office办公软件以及微软其它应用程序"
+      },
+      {
+        "item_name": "走114查询网",
+        "item_img": "./img/zou114.png",
+        "item_url": "http://www.zou114.com/",
+        "item_desc": "提供常见与不常见的查询，说不定哪天就用上"
+      },
+      {
+        "item_name": "大眼仔旭",
+        "item_img": "./img/dayanzai.png",
+        "item_url": "http://www.dayanzai.me/",
+        "item_desc": "主要分享各种Win平台实用工具，涵盖：图形图像、屏幕录像、网络软件、办公软件、格式转换、系统工具……以及各类实用的安卓应用软件"
+      },
+      {
+        "item_name": "奶牛快传",
+        "item_img": "./img/cowtransfer.png",
+        "item_url": "https://cowtransfer.com/",
+        "item_desc": "一款临时文件传输平台"
+      },
+      {
+        "item_name": "Smallpdf",
+        "item_img": "./img/smallpdf.png",
+        "item_url": "https://smallpdf.com/cn",
+        "item_desc": "据说该网站是全世界浏览人数最多的PDF格式转换网站，网站中包含18种与PDF相关的转换方式，功能一应俱全、绝对是简单好用的线上 PDF 处理工具"
+      },
+      {
+        "item_name": "MikuTools-工具集合",
+        "item_img": "./img/MikuTools.png",
+        "item_url": "https://miku.tools/",
+        "item_desc": "一个轻量的工具集合"
+      },
+      {
+        "item_name": "国外网站大全资源网",
+        "item_img": "./img/egouz.png",
+        "item_url": "https://www.egouz.com/",
+        "item_desc": "国外网站大全资源网是分享和推荐国外知名、实用、高质量的国外网址的站点，收录国外和国内各类实用网站,内容涵盖国外创意、设计、美食、视频、图片、旅游、文化、音乐等多领域站点资源，全方位了解国外互联网动态。"
+      }
+    ]
+  },
+  {
+    "cat_id": "placeholder2",
+    "cat_name": "Placeholder 2",
+    "cat_icon": "icon-aixin",
+    "cat_item": "placeholder2Item",
+    "list_items": [
+      {
+        "item_name": "VS Code",
+        "item_img": "./img/vscode.png",
+        "item_url": "https://code.visualstudio.com/",
+        "item_desc": "这个不多说，个人开发编辑器"
+      },
+      {
+        "item_name": "Node.js",
+        "item_img": "./img/nodeapp.png",
+        "item_url": "http://nodejs.cn/download/",
+        "item_desc": "JavaScript 运行环境"
+      },
+      {
+        "item_name": "Git",
+        "item_img": "./img/git.png",
+        "item_url": "https://git-scm.com/",
+        "item_desc": "版本控制工具"
+      },
+      {
+        "item_name": "马克鳗",
+        "item_img": "./img/markman.png",
+        "item_url": "http://www.getmarkman.com/",
+        "item_desc": "高效的设计稿标注、测量工具"
+      },
+      {
+        "item_name": "PxCook",
+        "item_img": "./img/pxcook.png",
+        "item_url": "https://www.fancynode.com.cn/pxcook",
+        "item_desc": "高效易用的自动标注工具, 生成前端代码"
+      },
+      {
+        "item_name": "Bandizip",
+        "item_img": "./img/bandizip.png",
+        "item_url": "http://www.bandizip.com/",
+        "item_desc": "个人最满意的压缩工具，没有之一"
+      },
+      {
+        "item_name": "Typora",
+        "item_img": "./img/typora.png",
+        "item_url": "https://www.typora.io/",
+        "item_desc": "一个适合新手的md编辑器，很好用"
+      },
+      {
+        "item_name": "ScreenToGif",
+        "item_img": "./img/ScreenToGif.png",
+        "item_url": "https://www.screentogif.com/?l=zh_cn",
+        "item_desc": "非常好用的gif生成器"
+      },
+      {
+        "item_name": "Fences",
+        "item_img": "./img/fences.png",
+        "item_url": "https://www.stardock.com/products/fences/",
+        "item_desc": "最好的桌面整理软件"
+      },
+      {
+        "item_name": "Everything",
+        "item_img": "./img/Everything.png",
+        "item_url": "https://www.voidtools.com/zh-cn/",
+        "item_desc": "快速定位本地资源文件"
+      },
+      {
+        "item_name": "Listary",
+        "item_img": "./img/listary.png",
+        "item_url": "https://www.listary.com/",
+        "item_desc": "文件名定位/搜索辅助软件"
+      },
+      {
+        "item_name": "Snipaste",
+        "item_img": "./img/snipaste.png",
+        "item_url": "https://www.snipaste.com/",
+        "item_desc": "最好用的截图软件，没有之一"
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>iData - Index of Data Science</title>
+  <meta name="keywords" content="idata, Data Science" />
+  <meta name="description" content="An index page for data science." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="Author" content="Yuzhang Huang" />
+  <meta name="Copyright" content="Yuzhang Huang" />
+  <link rel="shortcut icon" href="img/logo.ico" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./font/iconfont.css" />
+  <link rel="stylesheet" href="./styles/nprogress.css" />
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+  <div class="container" id="container">
+    <div class="left-bar">
+      <div class="title">
+        <h1>iData</h1>
+      </div>
+      <!-- nav -->
+      <div class="nav">
+        <div class="home active item">
+          <a href="javascript:void(0);">
+            <i class="iconfont icon-daohang"></i> Categories
+          </a>
+        </div>
+
+        <div class="nav-item">
+          <div class="category-nav" id="category">
+            <ul>
+              <!-- 导航栏分类渲染 -->
+              <script id="CategoryId" type="text/html">
+                  {{each list value index}}
+                      <li id="{{value.cat_id}}" class="{{index==0 ? 'active' : ''}}">
+                          <a data-id="{{value.cat_id}}">
+                              <i data-id="{{value.cat_id}}" class="iconfont {{value.cat_icon}}"></i>
+                              {{value.cat_name}}
+                          </a>
+                      </li>
+                  {{/each}}
+              </script>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- github -->
+      <div class="my-link item">
+        <a href="https://github.com/huangyzuhang/idata/" id="mygithub">
+          <i class="iconfont icon-github1"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- main -->
+    <div class="main" id="mainWrap">
+      <div id="mainContent">
+        <!-- category cards -->
+        <script id="navItemId" type="text/html">
+            {{each list value index}}
+            <div class="itemCart" id="{{value.cat_item}}">
+                <div class="sub-category">
+                    <div>
+                        <i class="iconfont {{value.cat_icon}}"></i>
+                        {{value.cat_name}}
+                    </div>
+                </div>
+                <div>
+                    {{each value.list_items value index}}
+                    <a target="_blank" href="{{value.item_url}}">
+                        <div class="item">
+                            <div class="logo">
+                                <img width="100%" class="loaded lazy" src="./img/loading.gif">
+                                <!-- <img width="100%" class="loaded lazy" data-echo="{{value.item_img}}" src="./img/loading.gif"> -->
+                                <span>{{value.item_name}}</span>
+                            </div>
+                            <div class="desc">
+                                {{value.item_desc}}
+                            </div>
+                            <div class="repo">
+                                <a target="_blank" href="{{value.item_repo}}">
+                                    <i class="iconfont icon-github1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                    {{/each}}
+                </div>
+            </div>
+            {{/each}}
+          </script>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="copyright">
+          <div>
+            Copyright © 2019 - iData.me
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- back to top -->
+    <a href="javascript:;" class="goTop">
+      <img src="./img/goTop.png" alt="Back to Top">
+    </a>
+
+    <!-- analytics -->
+    
+  </div>
+
+</body>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/echo.min.js"></script>
+<script src="./js/template-web.js"></script>
+<script src="./js/nprogress.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
