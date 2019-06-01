@@ -156,16 +156,16 @@
     ]
   },
   {
-    "cat_id": "placeholder2",
-    "cat_name": "Placeholder 2",
+    "cat_id": "workflow",
+    "cat_name": "Workflow",
     "cat_icon": "icon-aixin",
-    "cat_item": "placeholder2Item",
+    "cat_item": "workflowItem",
     "list_items": [
       {
         "item_name": "VS Code",
         "item_img": "./img/vscode.png",
         "item_url": "https://code.visualstudio.com/",
-        "item_desc": "这个不多说，个人开发编辑器"
+        "item_desc": "The best code editor in all platform"
       },
       {
         "item_name": "Node.js",
@@ -232,6 +232,12 @@
         "item_img": "./img/snipaste.png",
         "item_url": "https://www.snipaste.com/",
         "item_desc": "最好用的截图软件，没有之一"
+      },
+      {
+        "item_name": "石墨",
+        "item_img": "./img/shimo.png",
+        "item_url": "https://shimo.im/",
+        "item_desc": "实时协同云端办公软件"
       }
     ]
   }
