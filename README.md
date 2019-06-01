@@ -4,8 +4,8 @@ iData is a index page for data science.
 
 ## :battery: Dependencies
 
-- **jquery**
-- **Sass**
+- **jQuery**
+- **sass**
 - **iconfont** 
 - **ajax** - to fetch json data
 - **art-template** - page rendering

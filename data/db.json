@@ -9,7 +9,7 @@
         "item_name": "Scikit-learn",
         "item_img": "./img/Hulkye.png",
         "item_url": "https://scikit-learn.org/",
-        "item_desc": "A start-up Machine Learning package written in Python",
+        "item_desc": "A start-up Machine Learning package written in Python"
       },
       {
         "item_name": "Tensorflow",
