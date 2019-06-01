@@ -75,18 +75,18 @@
                     <a target="_blank" href="{{value.item_url}}">
                         <div class="item">
                             <div class="logo">
-                                <img width="100%" class="loaded lazy" src="./img/loading.gif">
-                                <!-- <img width="100%" class="loaded lazy" data-echo="{{value.item_img}}" src="./img/loading.gif"> -->
+                                <!-- <img width="100%" class="loaded lazy" src="./img/loading.gif"> -->
+                                <img width="100%" class="loaded lazy" data-echo="{{value.item_img}}" src="./img/loading.gif">
                                 <span>{{value.item_name}}</span>
                             </div>
                             <div class="desc">
                                 {{value.item_desc}}
                             </div>
-                            <div class="repo">
+                            <!-- <div class="repo">
                                 <a target="_blank" href="{{value.item_repo}}">
                                     <i class="iconfont icon-github1"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </a>
                     {{/each}}
