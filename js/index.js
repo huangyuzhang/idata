@@ -6,7 +6,7 @@ $(function() {
 
   // ============================ GET JSON Data ==============================
   $.getJSON(
-    'data/db.json',
+    'https://raw.githubusercontent.com/huangyuzhang/idata/master/data/db.json',
     res => {
       // 页面渲染
       var categoryHTML = template('CategoryId', { list: res })
